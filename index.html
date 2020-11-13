@@ -14,10 +14,33 @@
             border-radius: 0;
         }
 
-        /* Remove the jumbotron's default bottom margin */
-        .jumbotron {
+        .my-menu {
+            /* 貼緊上緣 */
             margin-bottom: 0;
+            /* 高度 */
+            height: 93px;
         }
+
+
+        .my-menu-botton {
+            width: 129px;
+            height: 36px;
+            border-radius: 99em;
+            border: none;
+            background-color: rgb(135,187,224);
+            text-align: center;
+        }
+
+            .my-menu-botton:hover {
+                background-color: rgb(54,78,129);
+                transition: all 0.2s linear;
+            }
+
+            .my-menu-botton span {
+                color: white;
+                font-size: 21px;
+                font-weight: bold;
+            }
 
         /* Add a gray background color and some padding to the footer */
         footer {
@@ -28,10 +51,13 @@
 </head>
 <body>
 
-    <div class="jumbotron">
-        <div class="container ">
-            <h1>Online Store</h1>
-            <p>Mission, Vission & Values</p>
+    <div class="my-menu">
+        <div class="container">
+            <img src="https://static.wixstatic.com/media/147f23_2c8a4e13b17e4b1395c81d4aa17acb34~mv2.png" style="width: 208px; height: 62px; object-fit: cover;">
+
+            <button class="my-menu-botton">
+                <span>遊戲介紹</span>
+            </button>
         </div>
     </div>
 
