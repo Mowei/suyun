@@ -1,0 +1,21 @@
+
+
+.my-menu-button {
+	width: 129px;
+	height: 36px;
+	border-radius: 99em;
+	border: none;
+	background-color: rgb(135,187,224);
+	text-align: center;
+}
+
+	.my-menu-button:hover {
+		background-color: rgb(54,78,129);
+		transition: all 0.2s linear;
+	}
+
+	.my-menu-button span {
+		color: white;
+		font-size: 21px;
+		font-weight: bold;
+	}
